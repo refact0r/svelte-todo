@@ -1,0 +1,120 @@
+body {
+    --bg-color: #1c1e24;
+    --box-bg-color: #23262E;
+    --text-color: #ced2db;
+    --accent-color: #2ada9f;
+    --main-color: #ced2db;
+    --sub-color: #757b88;
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+    background: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+body.light-theme {
+    --bg-color: #bebebe;
+    --box-bg-color: #e3e4e6;
+    --text-color: #000000;
+    --accent-color: #20ab7c;
+    --main-color: #3a3a3a;
+    --sub-color: #7d7d7d;
+}
+
+body.midnight-theme {
+    --bg-color: #090a0c;
+    --box-bg-color: #131416;
+    --text-color: #7b808b;
+    --accent-color: #3ba884;
+    --main-color: #7b808b;
+    --sub-color: #383c43;
+}
+
+body.nebula-theme {
+    --bg-color: #181825;
+    --box-bg-color: #212135;
+    --text-color: #838686;
+    --accent-color: #78C729;
+    --main-color: #BE3C88;
+    --sub-color: #19B3B8;
+}
+
+body.olivia-theme {
+    --bg-color: #161516;
+    --box-bg-color: #1C1B1D;
+    --text-color: #F2EFED;
+    --accent-color: #DEAF9D;
+    --main-color: #DEAF9D;
+    --sub-color: #5e4b4b;
+}
+
+body.laser-theme {
+    --bg-color: #191431;
+    --box-bg-color: #221B44;
+    --text-color: #DBE7E8;
+    --accent-color: #B82356;
+    --main-color: #B82356;
+    --sub-color: #009EAF;
+}
+
+body.carbon-theme {
+    --bg-color: #222222;
+    --box-bg-color: #313131;
+    --text-color: #F5E6C8;
+    --accent-color: #F66E0D;
+    --main-color: #F66E0D;
+    --sub-color: #616161;
+}
+
+.header {
+	width: 100%;
+    margin: 1.5rem 0;
+    color: var(--main-color);
+}
+
+.top {
+	margin-top: 0;
+}
+
+.button {
+	background: none;
+	color: var(--sub-color);
+	border: none;
+	font-size: inherit;
+	font-family: inherit;
+	cursor: pointer;
+    padding: 0;
+}
+
+.button:active {
+	transform: scale(0.9);
+}
+
+.button:focus {
+    outline: none;
+}
+
+.button:hover {
+	color: var(--main-color);
+}
+
+[draggable] {
+    cursor: grab;
+}
+
+.text {
+    word-break: keep-all;
+    line-height: 1.6rem;
+}
+
+.box {
+    background: var(--box-bg-color);
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.3rem 0.6rem rgba(0, 0, 0, 0.40);
+    word-break: break-all;
+}
